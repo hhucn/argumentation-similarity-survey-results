@@ -6,34 +6,18 @@ The survey has been conducted with workers from Amazon Mechanical Turk (MTurk) f
 Most questions has different scenarios which were randomly assigned to a participant during the survey.
 The results file only contains the answers of participants who answered at least 3 of 5 control questions correctly.
 
-<style>
-.significant10 {
-  text-decoration: underline dotted;
-  text-decoration-color: rgb(0, 67, 196);
-}
-
-.significant05 {
-  text-decoration: underline dashed;
-  text-decoration-color: rgb(206, 117, 0);
-}
-
-.significant01 {
-  text-decoration: underline;
-  text-decoration-color: rgb(172, 0, 0);
-}
-
-.expected {
-  font-weight: bold;
-}
-</style>
-
 The file `results.html` contains each question which has been asked.
 The different scenarios (h3 level) or grouped together (h2 level).
 The h2 heading contains the exact question which has been asked, followed by the summary of all answers frequencies for this scenario, each scenario's text and answer frequencies.
 If multiple questions have been asked for the same scenario, its text is not repeated again.
 
-The answer we have expected from our hypotheses are marked <span class="expected">bold</span>.
-Significant answer frequencies are underlined in different styles depending on the significance level: <span class="significant10">10 %<span>, <span class="significant5">5 %<span>, <span class="significant1">1 %<span>.
+The answer we have expected from our hypotheses are marked <b>bold</b>.
+Significant answer frequencies are underlined in different styles depending on the significance level:
+
+* <u>10 %</u>: ![dotted, medium blue](https://placehold.it/20/0043c4/ffffff?text=.%20.%20.) dotted, medium blue
+* <u>5 %</u>: ![dashed, orange](https://placehold.it/20/ce7500/ffffff?text=_%20%20_%20%20_) dashed, orange
+* <u>1 %</u>: ![dark red](https://placehold.it/20/ac0000/ffffff?text=_____) dark red
+
 Note that only the p-values for our expected answers are valid, as no correction for multiple testing is applied.
 Each percentage is followed by the concrete ratio of given answers and Clopper–Pearson confidence intervals for α=0.05. 
 
