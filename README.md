@@ -23,22 +23,22 @@ Each percentage is followed by the concrete ratio of given answers and Clopperâ€
 
 ## Demographic information
 
+counting only participants who answered at least 3 out of 5 control questions correctly
+
 | Age Group | # |
 | ----------| - |
-| No Answer | 1 |
-| Rather not say | 1 |
-| 20-29  | 37 |
-| 30-39  | 36 |
-| 40-49  | 30 |
-| 50-59  |  9 |
-| 60-69  |  3 |
+| 20-29  | 25 |
+| 30-39  | 25 |
+| 40-49  |  2 |
+| 50-59  |  6 |
+| 60-69  |  2 |
 | &gt;69 |  0 |
 
 | Gender | # |
 | ------ | - |
-| Male   | 75 |
-| Female | 41 |
-| Rather not say | 1 |
+| Male   | 53 |
+| Female | 27 |
+| Rather not say | 0 |
 
 ## Mapping of Hypothesis to survey questions
 
@@ -70,6 +70,6 @@ The following table shows which questions have been used to support which hypoth
 | 21 | Having more similar priorities of opinions can result in greater similarity even with lower absolute number of same opinions. | Wr1 |
 | 22 | Not mentioning a position results in greater dissimilarity than assigning lower priorities. | Pp |
 
-## Cite this work
+## Related publication
 
 *will be filled once published*
