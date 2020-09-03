@@ -22,7 +22,7 @@ Significant answer frequencies are underlined in different styles depending on t
 Note that only the p-values for our expected answers are valid, as no correction for multiple testing is applied.
 Each percentage is followed by the concrete ratio of given answers and Clopper–Pearson confidence intervals for α=0.05. 
 
-## Demographic information
+## Demographic Information
 
 counting only participants who answered at least 3 out of 5 control questions correctly
 
@@ -41,7 +41,7 @@ counting only participants who answered at least 3 out of 5 control questions co
 | Female | 27 |
 | Rather not say | 0 |
 
-## Mapping of Hypothesis to survey questions
+## Mapping of Hypothesis to Survey Questions
 
 Each question (or question group) has a unique identifier.
 The following table shows which questions have been used to support which hypothesis.
@@ -51,18 +51,18 @@ For more complex scenarios in the questionnaire, a graphical visualization is in
 | - | ---------- | -------------- | --------------------------------------- |
 | 1 | Proportionally bigger overlap of opinions on position results in greater similarity than the absolute number of differences. | D1s |
 | 2 | Proportionally bigger overlap on arguments for/against a position results in greater similarity than the absolute number of differences. | D1 | ![](fig/H2.png)
-| 3 | A neutral opinion is between a positive and a negative opinion. | D2nf, D2nF |
+| 3 | A neutral opinion is between a positive and a negative opinion. | D2nf, D2nF | ![](fig/H3.png)
 | 4 | Deviations in deeper parts have less contribution to dissimilarity than deviations in higher parts. | D3 | ![](fig/H4.png)
-| 5 | Weights of arguments have an influence even if they are the only difference. | D5 |
+| 5 | Weights of arguments have an influence even if they are the only difference. | D5 | ![](fig/H5.png)
 | 6 | Argumentation differences in a branch with lower importance contribute less to dissimilarity. | D4i | ![](fig/H6.png)
-| 7 | No opinion is between a positive and a negative opinion. | D2e, D2eF |
-| 8 | An unknown opinion is between a positive and a negative opinion. | D2i, D2iF |
+| 7 | No opinion is between a positive and a negative opinion. | D2e, D2eF | ![](fig/H7.png)
+| 8 | An unknown opinion is between a positive and a negative opinion. | D2i, D2iF | ![](fig/H8.png)
 | 9 | A statement for which no opinion is mentioned is like a statement for which we explicitly say the opinion is unknown. | TD2 |
 | 10 | Not mentioning an argument and being against an argument have the same effect. | D4e | ![](fig/H10.png)
 | 11 | Disagreeing on a position results in greater distance than having the same opinion on that position, but with contrary arguments. | Mn | ![](fig/H11.png)
 | 12 | It is possible for a difference in arguments for/against positions to result in greater dissimilarity than a difference in opinions on those positions. | Ap | ![](fig/H12.png)
 | 13 | Two argumentations with weak and contrary opinions on a statement can be closer than two argumentations with the same opinions, but with very different strength. | D7p, D8 | ![](fig/H13.png)
-| 14 | Two argumentations with weak arguments and contrary opinions on their premises can be closer than two argumentations with the same opinions, but with very different strength of arguments. | D7a |
+| 14 | Two argumentations with weak arguments and contrary opinions on their premises can be closer than two argumentations with the same opinions, but with very different strength of arguments. | D7a | ![](fig/H14.png)
 | 15 | When determining the attitude regarding a position, opinions (not) mentioned for a not-accepted argument have no influence. | F1 | ![](fig/H15.png)
 | 16 | Flipping the two important positions results in a bigger difference than flipping two less important positions. | F2s1 | ![](fig/H16.png)
 | 17 | Adding a new position can remove a previous dissimilarity. | F2s2 | ![](fig/H17.png)
