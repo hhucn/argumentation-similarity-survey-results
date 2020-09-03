@@ -10,6 +10,7 @@ The file `results.html` contains each question which has been asked.
 The different scenarios (h3 level) or grouped together (h2 level).
 The h2 heading contains the exact question which has been asked, followed by the summary of all answers frequencies for this scenario, each scenario's text and answer frequencies.
 If multiple questions have been asked for the same scenario, its text is not repeated again.
+More complex scenarios include a graphic representing the argumentations; those graphics were not part of the questionnaire.
 
 The answer we have expected from our hypotheses are marked <b>bold</b>.
 Significant answer frequencies are underlined in different styles depending on the significance level:
@@ -44,31 +45,32 @@ counting only participants who answered at least 3 out of 5 control questions co
 
 Each question (or question group) has a unique identifier.
 The following table shows which questions have been used to support which hypothesis.
+For more complex scenarios in the questionnaire, a graphical visualization is included (cf. html for expected answers).
 
-| # | Hypothesis | Question Group |
-| - | ---------- | -------------- |
+| # | Hypothesis | Question Group | Visualization of Questionnaire Scenario |
+| - | ---------- | -------------- | --------------------------------------- |
 | 1 | Proportionally bigger overlap of opinions on position results in greater similarity than the absolute number of differences. | D1s |
-| 2 | Proportionally bigger overlap on arguments for/against a position results in greater similarity than the absolute number of differences. | D1 |
+| 2 | Proportionally bigger overlap on arguments for/against a position results in greater similarity than the absolute number of differences. | D1 | ![](fig/H2.png)
 | 3 | A neutral opinion is between a positive and a negative opinion. | D2nf, D2nF |
-| 4 | Deviations in deeper parts have less contribution to dissimilarity than deviations in higher parts. | D3 |
+| 4 | Deviations in deeper parts have less contribution to dissimilarity than deviations in higher parts. | D3 | ![](fig/H4.png)
 | 5 | Weights of arguments have an influence even if they are the only difference. | D5 |
-| 6 | Argumentation differences in a branch with lower importance contribute less to dissimilarity. | D4i |
+| 6 | Argumentation differences in a branch with lower importance contribute less to dissimilarity. | D4i | ![](fig/H6.png)
 | 7 | No opinion is between a positive and a negative opinion. | D2e, D2eF |
 | 8 | An unknown opinion is between a positive and a negative opinion. | D2i, D2iF |
 | 9 | A statement for which no opinion is mentioned is like a statement for which we explicitly say the opinion is unknown. | TD2 |
-| 10 | Not mentioning an argument and being against an argument have the same effect. | D4e |
-| 11 | Disagreeing on a position results in greater distance than having the same opinion on that position, but with contrary arguments. | Mn |
-| 12 | It is possible for a difference in arguments for/against positions to result in greater dissimilarity than a difference in opinions on those positions. | Ap |
-| 13 | Two argumentations with weak and contrary opinions on a statement can be closer than two argumentations with the same opinions, but with very different strength. | D7p, D8 |
+| 10 | Not mentioning an argument and being against an argument have the same effect. | D4e | ![](fig/H10.png)
+| 11 | Disagreeing on a position results in greater distance than having the same opinion on that position, but with contrary arguments. | Mn | ![](fig/H11.png)
+| 12 | It is possible for a difference in arguments for/against positions to result in greater dissimilarity than a difference in opinions on those positions. | Ap | ![](fig/H12.png)
+| 13 | Two argumentations with weak and contrary opinions on a statement can be closer than two argumentations with the same opinions, but with very different strength. | D7p, D8 | ![](fig/H13.png)
 | 14 | Two argumentations with weak arguments and contrary opinions on their premises can be closer than two argumentations with the same opinions, but with very different strength of arguments. | D7a |
-| 15 | When determining the attitude regarding a position, opinions (not) mentioned for a not-accepted argument have no influence. | F1 |
-| 16 | Flipping the two important positions results in a bigger difference than flipping two less important positions. | F2s1 |
-| 17 | Adding a new position can remove a previous dissimilarity. | F2s2 |
-| 18 | Adding a new position as most important position can swap a previous similarity order. | F2a1, F2a2 |
-| 19 | Agreeing with someone’s most important position is as important as having that person’s most important opinion matching mine. | Pf |
-| 20 | Adding another most important position results in greater dissimilarity than flipping the priorities of two positions. | Wa |
-| 21 | Having more similar priorities of opinions can result in greater similarity even with lower absolute number of same opinions. | Wr1 |
-| 22 | Not mentioning a position results in greater dissimilarity than assigning lower priorities. | Pp |
+| 15 | When determining the attitude regarding a position, opinions (not) mentioned for a not-accepted argument have no influence. | F1 | ![](fig/H15.png)
+| 16 | Flipping the two important positions results in a bigger difference than flipping two less important positions. | F2s1 | ![](fig/H16.png)
+| 17 | Adding a new position can remove a previous dissimilarity. | F2s2 | ![](fig/H17.png)
+| 18 | Adding a new position as most important position can swap a previous similarity order. | F2a1, F2a2 | ![](fig/H18.png)
+| 19 | Agreeing with someone’s most important position is as important as having that person’s most important opinion matching mine. | Pf | ![](fig/H19.png)
+| 20 | Adding another most important position results in greater dissimilarity than flipping the priorities of two positions. | Wa | ![](fig/H20.png)
+| 21 | Having more similar priorities of opinions can result in greater similarity even with lower absolute number of same opinions. | Wr1 | ![](fig/H21.png)
+| 22 | Not mentioning a position results in greater dissimilarity than assigning lower priorities. | Pp | ![](fig/H22.png)
 
 ## Related publication
 
