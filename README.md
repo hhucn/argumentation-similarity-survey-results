@@ -41,7 +41,7 @@ counting only participants who answered at least 3 out of 5 control questions co
 | Female | 27 |
 | Rather not say | 0 |
 
-## Mapping of Hypothesis to Survey Questions
+## Mapping of Hypotheses to Survey Questions
 
 Each question (or question group) has a unique identifier.
 The following table shows which questions have been used to support which hypothesis.
@@ -74,4 +74,6 @@ For more complex scenarios in the questionnaire, a graphical visualization is in
 
 ## Related publication
 
-*will be filled once published*
+When using this dataset, please cite the following publication:
+
+Brenneis, M., Mauve, M.: Do I Argue Like Them? A Human Baseline for Comparing Attitudes in Argumentations. In: Proceedings of the Workshop on Advances In Argumentation In Artificial Intelligence 2020. pp. 1–15. No. 2777 in CEUR Workshop Proceedings, Aachen (Nov 2020)
